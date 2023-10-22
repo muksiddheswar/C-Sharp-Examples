@@ -9,8 +9,12 @@
             //DataTypes.DataTypes.data_type_func();
 
             //PolymorphismExample
-            PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();
-            OverrideExample.OverrideExample.OverrideExampleDriver();
+            //PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();
+            //OverrideExample.OverrideExample.OverrideExampleDriver();
+
+            // Type Example
+            TypeExample.GetMemberExample.GetMemberExampleMain();
+            TypeExample.GetMemberNullExample.GetMemberNullExampleMain();
         }
     }
 }
