@@ -1,9 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DataTypes;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+//using C_Sharp_Examples.Polymorphism;
+//using DataTypes;
+using PolymorphismExample;
 
 namespace C_Sharp_Examples
 {
@@ -13,7 +15,10 @@ namespace C_Sharp_Examples
         {
             // Display the number of command line arguments.
             Console.WriteLine("Hi");
-            DataTypes.DataTypes.data_type_func();
+            //DataTypes.DataTypes.data_type_func();
+
+            //PolymorphismExample
+            PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();
         }
     }
 }
