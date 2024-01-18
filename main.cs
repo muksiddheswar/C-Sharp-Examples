@@ -1,4 +1,5 @@
 ﻿//using HTTPListenerExample;
+using ExtensionMethodExamples;
 using System.Net;
 
 namespace C_Sharp_Examples
@@ -27,11 +28,16 @@ namespace C_Sharp_Examples
             //HTTPListenerExample.ListenerResponseText.StartServerWithTextResponse();
 
             //-- String Manipulation --
-            var ret = StringManipulation.StringManipulation.LeftOfChar("www.fff.com", '.');
-            Console.WriteLine(ret);
+            //var ret = StringManipulation.StringManipulation.LeftOfChar("www.fff.com", '.');
+            //Console.WriteLine(ret);
 
-            ret = StringManipulation.StringManipulation.RightOfChar("www.fff.com", '.');
-            Console.WriteLine(ret);
+            //ret = StringManipulation.StringManipulation.RightOfChar("www.fff.com", '.');
+            //Console.WriteLine(ret);
+
+            //-- Extension examples --
+            string s = "Hello Extension Methods";
+            int i = s.WordCount();
+            Console.WriteLine(i);
         }
     }
 }
