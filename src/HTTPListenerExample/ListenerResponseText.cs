@@ -2,7 +2,7 @@
 using System.Text;
 
 
-namespace C_Sharp_Examples.src.HTTPListenerExample
+namespace HTTPListenerExample
 {
     internal class ListenerResponseText
     {

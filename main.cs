@@ -1,4 +1,4 @@
-﻿using C_Sharp_Examples.src.HTTPListenerExample;
+﻿//using HTTPListenerExample;
 using System.Net;
 
 namespace C_Sharp_Examples
@@ -23,8 +23,12 @@ namespace C_Sharp_Examples
 
 
             //-- HttpListener Examples --
-            //SimpleListener.StartServer();
-            ListenerResponseText.StartServerWithTextResponse();
+            //HTTPListenerExample.SimpleListener.StartServer();
+            HTTPListenerExample.ListenerResponseText.StartServerWithTextResponse();
+
+            //-- String Manipulation --
+
+
 
         }
     }

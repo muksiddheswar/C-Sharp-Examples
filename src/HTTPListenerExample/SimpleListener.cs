@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace C_Sharp_Examples.src.HTTPListenerExample
+namespace HTTPListenerExample
 {
     internal class SimpleListener
     {
