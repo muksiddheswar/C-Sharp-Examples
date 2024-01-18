@@ -23,13 +23,15 @@ namespace C_Sharp_Examples
 
 
             //-- HttpListener Examples --
-            //HTTPListenerExample.SimpleListener.StartServer();
-            HTTPListenerExample.ListenerResponseText.StartServerWithTextResponse();
+            ////HTTPListenerExample.SimpleListener.StartServer();
+            //HTTPListenerExample.ListenerResponseText.StartServerWithTextResponse();
 
             //-- String Manipulation --
+            var ret = StringManipulation.StringManipulation.LeftOfChar("www.fff.com", '.');
+            Console.WriteLine(ret);
 
-
-
+            ret = StringManipulation.StringManipulation.RightOfChar("www.fff.com", '.');
+            Console.WriteLine(ret);
         }
     }
 }
