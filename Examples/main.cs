@@ -38,6 +38,7 @@ namespace C_Sharp_Examples
             string s = "Hello Extension Methods";
             int i = s.WordCount();
             Console.WriteLine(i);
+            Console.WriteLine(s.LeftOfChar('o'));
         }
     }
 }

@@ -13,5 +13,19 @@ namespace ExtensionMethodExamples
             return str.Split(new char[] { ' ', '.', '?' },
                              StringSplitOptions.RemoveEmptyEntries).Length;
         }
+
+        public static string LeftOfChar(this string src, char c)
+        {
+            string ret = src;
+
+            int index = src.IndexOf(c);
+
+            if (index != -1)
+            {
+                ret = src[..index];
+            }
+
+            return ret;
+        }
     }
 }
