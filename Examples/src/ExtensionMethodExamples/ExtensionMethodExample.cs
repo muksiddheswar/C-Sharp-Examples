@@ -27,5 +27,18 @@ namespace ExtensionMethodExamples
 
             return ret;
         }
+
+        public static string LeftOfRightmostOf(this string src, char c)
+        {
+            string ret = src;
+            int idx = src.LastIndexOf(c);
+
+            if (idx != -1)
+            {
+                ret = src.Substring(0, idx);
+            }
+
+            return ret;
+        }
     }
 }

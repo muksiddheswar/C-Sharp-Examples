@@ -1,6 +1,9 @@
 ﻿//using HTTPListenerExample;
 using ExtensionMethodExamples;
+using System.Diagnostics;
+using System;
 using System.Net;
+using System.Reflection.Emit;
 
 namespace C_Sharp_Examples
 {
@@ -34,11 +37,18 @@ namespace C_Sharp_Examples
             //ret = StringManipulation.StringManipulation.RightOfChar("www.fff.com", '.');
             //Console.WriteLine(ret);
 
+            //ret = StringManipulation.StringManipulation.LeftOfRightmostOf("D:\\Codes\\Simple-WebServer\\ConsoleWebServer\\bin\\Debug\\net6.0\\ConsoleWebServer.dll", '\\');
+            //Console.WriteLine(ret);
+
             //-- Extension examples --
-            string s = "Hello Extension Methods";
-            int i = s.WordCount();
-            Console.WriteLine(i);
-            Console.WriteLine(s.LeftOfChar('o'));
+            //string s = "Hello Extension Methods";
+            //int i = s.WordCount();
+            //Console.WriteLine(i);
+            //Console.WriteLine(s.LeftOfChar('o'));
+
+            string s = " D:\\Codes\\Simple - WebServer\\ConsoleWebServer\\bin\\Debug\\net6.0\\ConsoleWebServer.dll";
+            string g = s.LeftOfRightmostOf('\\').LeftOfRightmostOf('\\').LeftOfRightmostOf('\\').LeftOfRightmostOf('\\') + "\\Website";
+            Console.WriteLine(g);   
         }
     }
 }
