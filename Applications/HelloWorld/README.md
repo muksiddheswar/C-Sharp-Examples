@@ -1,1 +1,1 @@
-### Simple Hello-Worls example of a C# console application.
+### Simple Hello-World example of a C# console application.
