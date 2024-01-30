@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace HTTPListenerExample
+namespace HTTPListener
 {
     internal class SimpleListener
     {
