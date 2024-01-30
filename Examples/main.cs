@@ -1,9 +1,11 @@
 ﻿//using HTTPListenerExample;
-using ExtensionMethodExamples;
+using ExtensionMethod;
 using System.Diagnostics;
 using System;
 using System.Net;
 using System.Reflection.Emit;
+using LINQ;
+using Expressions;
 
 namespace C_Sharp_Examples
 {
@@ -46,9 +48,18 @@ namespace C_Sharp_Examples
             //Console.WriteLine(i);
             //Console.WriteLine(s.LeftOfChar('o'));
 
-            string s = " D:\\Codes\\Simple - WebServer\\ConsoleWebServer\\bin\\Debug\\net6.0\\ConsoleWebServer.dll";
-            string g = s.LeftOfRightmostOf('\\').LeftOfRightmostOf('\\').LeftOfRightmostOf('\\').LeftOfRightmostOf('\\') + "\\Website";
-            Console.WriteLine(g);   
+            //string s = " D:\\Codes\\Simple - WebServer\\ConsoleWebServer\\bin\\Debug\\net6.0\\ConsoleWebServer.dll";
+            //string g = s.LeftOfRightmostOf('\\').LeftOfRightmostOf('\\').LeftOfRightmostOf('\\').LeftOfRightmostOf('\\') + "\\Website";
+            //Console.WriteLine(g);   
+
+            // -- LINQ Examples --
+            //QueryOperation queryOperation = new QueryOperation();
+            //queryOperation.Operation();
+
+            // -- Lambda Examples --
+            LambdaExpressions.LambdaExample();
+            LambdaExpressions.LambdaWithLinq();
+
         }
     }
 }
