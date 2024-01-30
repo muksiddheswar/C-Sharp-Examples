@@ -27,6 +27,20 @@ namespace Expressions
 
         }
 
+        public static void StatementLambdaExample()
+        {
+            Action<string> greet = name =>
+            {
+                string greeting = $"Hello {name}!";
+                Console.WriteLine(greeting);
+            };
+            greet("World");
+            // Output:
+            // Hello World!
+
+            greet("Sid");
+        }
+
 
     }
 }
