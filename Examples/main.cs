@@ -60,6 +60,7 @@ namespace C_Sharp_Examples
             LambdaExpressions.LambdaExample();
             LambdaExpressions.LambdaWithLinq();
             LambdaExpressions.StatementLambdaExample();
+            LambdaExpressions.ExpressionLambdaExample();
 
         }
     }
