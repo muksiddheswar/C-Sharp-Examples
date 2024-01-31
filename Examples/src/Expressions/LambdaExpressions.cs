@@ -46,8 +46,6 @@ namespace Expressions
             Func<int, int> square = x => x * x;
             Func<int, int> add = x => square(x) + x;
             Console.WriteLine(add(5));
-            // Output:
-            // 25
         }
 
     }
