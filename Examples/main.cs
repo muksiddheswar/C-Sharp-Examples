@@ -64,7 +64,7 @@ namespace C_Sharp_Examples
             //LambdaExpressions.ExpressionLambdaExample();
 
 
-            // -- Sealed class
+            // -- Sealed class and method examples --
             Program.UseSealedClass();
             Z z = new Z();
             z.F2();
