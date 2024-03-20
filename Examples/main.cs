@@ -7,6 +7,7 @@ using System.Reflection.Emit;
 using LINQ;
 using Expressions;
 using Modifiers.Sealed;
+using Modifiers.AccessModifiers.Protected;
 
 namespace C_Sharp_Examples
 {
@@ -65,9 +66,15 @@ namespace C_Sharp_Examples
 
 
             // -- Sealed class and method examples --
-            Program.UseSealedClass();
-            Z z = new Z();
-            z.F2();
+            //Program.UseSealedClass();
+            //Z z = new Z();
+            //z.F2();
+
+
+
+            // -- Access Modifier Examples --
+            // -- PROTECTED -- 
+            B.ProtectedClassExample();
            
         }
     }
