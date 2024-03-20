@@ -6,6 +6,7 @@ using System.Net;
 using System.Reflection.Emit;
 using LINQ;
 using Expressions;
+using Modifiers.Sealed;
 
 namespace C_Sharp_Examples
 {
@@ -57,11 +58,15 @@ namespace C_Sharp_Examples
             //queryOperation.Operation();
 
             // -- Lambda Examples --
-            LambdaExpressions.LambdaExample();
-            LambdaExpressions.LambdaWithLinq();
-            LambdaExpressions.StatementLambdaExample();
-            LambdaExpressions.ExpressionLambdaExample();
+            //LambdaExpressions.LambdaExample();
+            //LambdaExpressions.LambdaWithLinq();
+            //LambdaExpressions.StatementLambdaExample();
+            //LambdaExpressions.ExpressionLambdaExample();
 
+
+            // -- Sealed class
+            Program.UseSealedClass();
+           
         }
     }
 }
