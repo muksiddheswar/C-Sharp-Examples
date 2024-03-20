@@ -8,6 +8,7 @@ using LINQ;
 using Expressions;
 using Modifiers.Sealed;
 using Modifiers.AccessModifiers.Protected;
+using ManagedAPI.Func;
 
 namespace C_Sharp_Examples
 {
@@ -74,8 +75,13 @@ namespace C_Sharp_Examples
 
             // -- Access Modifier Examples --
             // -- PROTECTED -- 
-            B.ProtectedClassExample();
-           
+            //B.ProtectedClassExample();
+
+
+            // -- FUNC Example --
+            FuncExample.FuncExampleOneInput();
+            FuncExampleDelegate.FuncExampleDelegateMethod();
+            FuncExampleImplicitDelegate.FuncExampleImplicitDelegateMethod();
         }
     }
 }
