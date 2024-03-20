@@ -66,6 +66,8 @@ namespace C_Sharp_Examples
 
             // -- Sealed class
             Program.UseSealedClass();
+            Z z = new Z();
+            z.F2();
            
         }
     }
