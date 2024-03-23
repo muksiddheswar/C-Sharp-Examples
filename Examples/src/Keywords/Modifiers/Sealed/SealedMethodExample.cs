@@ -1,5 +1,5 @@
-﻿namespace Modifiers.Sealed
-{ 
+﻿namespace C_Sharp_Examples.src.Keywords.Modifiers.Sealed
+{
     class X
     {
         protected virtual void F() { Console.WriteLine("X.F"); }

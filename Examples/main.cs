@@ -6,9 +6,10 @@ using System.Net;
 using System.Reflection.Emit;
 using LINQ;
 using Expressions;
-using Modifiers.Sealed;
-using Modifiers.AccessModifiers.Protected;
+using C_Sharp_Examples.src.Keywords.Modifiers.Sealed;
+using C_Sharp_Examples.src.Keywords.Modifiers.AccessModifiers.Protected;
 using ManagedAPI.Func;
+using Keywords.Identifiers.Out;
 
 namespace C_Sharp_Examples
 {
@@ -79,9 +80,14 @@ namespace C_Sharp_Examples
 
 
             // -- FUNC Example --
-            FuncExample.FuncExampleOneInput();
-            FuncExampleDelegate.FuncExampleDelegateMethod();
-            FuncExampleImplicitDelegate.FuncExampleImplicitDelegateMethod();
+            //FuncExample.FuncExampleOneInput();
+            //FuncExampleDelegate.FuncExampleDelegateMethod();
+            //FuncExampleImplicitDelegate.FuncExampleImplicitDelegateMethod();
+
+
+            // -- OUT EXAMPLE --
+            Out_Example.OutMain();
+        
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modifiers.AccessModifiers.Protected
+namespace C_Sharp_Examples.src.Keywords.Modifiers.AccessModifiers.Protected
 {
     class A
     {

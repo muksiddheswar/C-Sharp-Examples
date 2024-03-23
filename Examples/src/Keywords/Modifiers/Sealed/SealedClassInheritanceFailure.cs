@@ -2,8 +2,8 @@
 // of a Sealed Class
 using System;
 
-namespace Modifiers.Sealed
-{ 
+namespace C_Sharp_Examples.src.Keywords.Modifiers.Sealed
+{
     class Bird
     {
 
