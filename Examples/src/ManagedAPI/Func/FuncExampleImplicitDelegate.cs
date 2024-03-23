@@ -16,11 +16,10 @@ namespace ManagedAPI.Func
             // Use delegate instance to call UppercaseString method
             Console.WriteLine(convertMethod(name));
 
-            string UppercaseString(string inputString)
-            {
-                return inputString.ToUpper();
-            }
-
+        }
+        private static string UppercaseString(string inputString)
+        {
+            return inputString.ToUpper();
         }
 
 
