@@ -28,17 +28,20 @@ namespace C_Sharp_Examples
 
             // Data Types and Variables
             //DataTypes.DataTypes.data_type_func();
-            DataTypes.BuiltInTypes.data_type_integer();
-            DataTypes.BuiltInTypes.data_type_typecast();
+            BuiltInTypes.data_type_integer();
+            BuiltInTypes.data_type_typecast();
+
+            // String Example
+            Strings.concatenateStrings();
 
             // UserInput Example
             //UserInput.InputUserName();
 
             // Operators Example
             Operators.additionExample();
+            Operators.GreaterThan();
 
-            // String Example
-            Strings.concatenateStrings();
+            
 
             //PolymorphismExample
             //PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();

@@ -19,5 +19,15 @@ namespace C_Sharp_Examples.src.OperatorsAndExpressions
             int sum = x + y;
             Console.WriteLine(sum);
         }
+        public static void GreaterThan()
+        {
+            int x = 15;
+            int y = 10;
+
+            // Compare if x is greater than y and print the result
+            bool result = x > y;
+            Console.WriteLine(result);
+
+        }
     }
 }

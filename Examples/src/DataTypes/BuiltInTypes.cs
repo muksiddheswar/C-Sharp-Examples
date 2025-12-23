@@ -2,7 +2,7 @@
 
 using System;
 
-namespace DataTypes
+namespace C_Sharp_Examples.src.DataTypes
 
 {
 	class BuiltInTypes
