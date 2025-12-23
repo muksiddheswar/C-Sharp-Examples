@@ -12,6 +12,7 @@ using ManagedAPI.Func;
 using Keywords.Identifiers.Out;
 using C_Sharp_Examples.src.HelloWorld;
 using C_Sharp_Examples.src.UserInput;
+using C_Sharp_Examples.src.Operators;
 
 namespace C_Sharp_Examples
 {
@@ -30,7 +31,10 @@ namespace C_Sharp_Examples
             DataTypes.DataTypes.data_type_typecast();
 
             // UserInput Example
-            UserInput.InputUserName();
+            //UserInput.InputUserName();
+
+            // Operators Example
+            Operators.additionExample();
 
             //PolymorphismExample
             //PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();

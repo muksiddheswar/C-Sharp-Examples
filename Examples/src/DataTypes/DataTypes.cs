@@ -39,6 +39,7 @@ namespace DataTypes
             double myDouble = 42.65;
 			int myInt = (int)myDouble;
             Console.WriteLine(myInt);
+            Console.WriteLine(Convert.ToInt32(myDouble));
 
         }
 
