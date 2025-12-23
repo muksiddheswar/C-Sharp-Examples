@@ -15,6 +15,7 @@ using C_Sharp_Examples.src.UserInput;
 using C_Sharp_Examples.src.OperatorsAndExpressions;
 using C_Sharp_Examples.src.DataTypes;
 using C_Sharp_Examples.src.Statements;
+using C_Sharp_Examples.src.Classes.Methods;
 
 namespace C_Sharp_Examples
 {
@@ -25,17 +26,17 @@ namespace C_Sharp_Examples
             Console.WriteLine("Hi");
 
             // Hello World
-            HelloWorld.printHelloWorld();
+            //HelloWorld.printHelloWorld();
 
             // Data Types and Variables
             //DataTypes.DataTypes.data_type_func();
-            BuiltInTypes.data_type_integer();
-            BuiltInTypes.data_type_typecast();
+            //BuiltInTypes.data_type_integer();
+            //BuiltInTypes.data_type_typecast();
 
             // String Example
-            Strings.concatenateStrings();
-            Strings.AccessString();
-            Strings.SpecialCharacters();
+            //Strings.concatenateStrings();
+            //Strings.AccessString();
+            //Strings.SpecialCharacters();
 
             // UserInput Example
             //UserInput.InputUserName();
@@ -45,10 +46,16 @@ namespace C_Sharp_Examples
             //Operators.GreaterThan();
 
             // Statement Example
-            int inputTemperature = 10; // Change this value to test different temperatures
-            //TemperatureAdvice(inputTemperature);
-            SelectionStatements.TemperatureAdvice(inputTemperature);
+            //int inputTemperature = 10; // Change this value to test different temperatures
+            //SelectionStatements.TemperatureAdvice(inputTemperature);
+            //IterationStatements.LoopExample();
 
+            // Collection Example
+            //CollectionsAndArrays.ArrayExample();
+
+
+            // Methods Example
+            Console.WriteLine(Methods.Multiply(3, 5));
 
 
             //PolymorphismExample

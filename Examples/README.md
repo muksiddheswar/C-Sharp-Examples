@@ -13,8 +13,13 @@ C# Track
 	- Strings
 		- Concatenation
 		- Accessing string
-	- Operators and Expressions
-		- 	Conditional Operators
-	- 	Statemetns
-		- 	Selection Statements (if/Else, Case)
-		- 	Iteration Statements (Loops)
+	- Collections and Arrays
+		- Arrays
+		- Collections
+
+- OPERATORS AND EXPRESSIONS
+	- 	Conditional Operators
+	
+- 	STATEMENTS
+	- 	Selection Statements (if/Else, Case)
+	- 	Iteration Statements (Loops)

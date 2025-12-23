@@ -1,8 +1,14 @@
-﻿namespace PolymorphismExample
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Sharp_Examples.src.Classes.Polymorphism
 {
     class Animal  // Base class (parent) 
     {
-        public void animalSound()
+        public virtual void animalSound()
         {
             Console.WriteLine("The animal makes a sound");
         }
@@ -10,7 +16,7 @@
 
     class Pig : Animal  // Derived class (child) 
     {
-        public void animalSound()
+        public override void animalSound()
         {
             Console.WriteLine("The pig says: wee wee");
         }
@@ -18,15 +24,15 @@
 
     class Dog : Animal  // Derived class (child) 
     {
-        public void animalSound()
+        public override void animalSound()
         {
             Console.WriteLine("The dog says: bow wow");
         }
     }
 
-    class PolymorphismExample
+    class OverrideExample
     {
-        public static void PolymorphismDriverFunction()
+        public static void OverrideExampleDriver()
         {
             Animal myAnimal = new Animal();  // Create a Animal object
             Animal myPig = new Pig();  // Create a Pig object
