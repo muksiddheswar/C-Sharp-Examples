@@ -10,6 +10,7 @@ using C_Sharp_Examples.src.Keywords.Modifiers.Sealed;
 using C_Sharp_Examples.src.Keywords.Modifiers.AccessModifiers.Protected;
 using ManagedAPI.Func;
 using Keywords.Identifiers.Out;
+using C_Sharp_Examples.src.HelloWorld;
 
 namespace C_Sharp_Examples
 {
@@ -19,7 +20,12 @@ namespace C_Sharp_Examples
         {
             Console.WriteLine("Hi");
 
+            // Hello World
+            HelloWorld.printHelloWorld();
+
+            // Data Types and Variables
             //DataTypes.DataTypes.data_type_func();
+            DataTypes.DataTypes.data_type_integer();
 
             //PolymorphismExample
             //PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();
@@ -86,8 +92,8 @@ namespace C_Sharp_Examples
 
 
             // -- OUT EXAMPLE --
-            Out_Example.OutMain();
-        
+            //Out_Example.OutMain();
+
         }
     }
 }
