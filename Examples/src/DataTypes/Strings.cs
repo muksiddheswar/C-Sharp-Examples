@@ -41,5 +41,20 @@ namespace C_Sharp_Examples.src.DataTypes
             // Print the result
             Console.WriteLine(lastName);
         }
+
+        public static void SpecialCharacters()
+        {
+            string txt = "We are the so-called \"Vikings\" from the north.";
+            Console.WriteLine(txt);
+
+            txt = "The character \\ is called backslash.";
+            Console.WriteLine(txt);
+
+            txt = "It\'s alright\t. \nHi.\b";
+            Console.WriteLine(txt);
+
+
+
+        }
     }
 }

@@ -14,6 +14,7 @@ using C_Sharp_Examples.src.HelloWorld;
 using C_Sharp_Examples.src.UserInput;
 using C_Sharp_Examples.src.OperatorsAndExpressions;
 using C_Sharp_Examples.src.DataTypes;
+using C_Sharp_Examples.src.Statements;
 
 namespace C_Sharp_Examples
 {
@@ -34,6 +35,7 @@ namespace C_Sharp_Examples
             // String Example
             Strings.concatenateStrings();
             Strings.AccessString();
+            Strings.SpecialCharacters();
 
             // UserInput Example
             //UserInput.InputUserName();
@@ -42,7 +44,12 @@ namespace C_Sharp_Examples
             //Operators.additionExample();
             //Operators.GreaterThan();
 
-            
+            // Statement Example
+            int inputTemperature = 10; // Change this value to test different temperatures
+            //TemperatureAdvice(inputTemperature);
+            SelectionStatements.TemperatureAdvice(inputTemperature);
+
+
 
             //PolymorphismExample
             //PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();
