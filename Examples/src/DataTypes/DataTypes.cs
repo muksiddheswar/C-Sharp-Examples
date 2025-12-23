@@ -21,16 +21,28 @@ namespace DataTypes
             Console.WriteLine(myLetter);
 			Console.WriteLine(myBool);
 			Console.WriteLine(myText);
-		}
+        }
 
-		public static void data_type_integer()
-		{ 
 		// Declare an integer variable named 'number'
         // Initialize the variable with the value 42
         // Print the value of the variable 'number' to the console
-        int number = 42;             
-        Console.WriteLine(number);
+		public static void data_type_integer()
+		{ 
+			int number = 42;             
+			Console.WriteLine(number);
 
         }
-	}
+
+        public static void data_type_typecast()
+        {
+            // Convert myDouble to an Int and print it to the console
+            double myDouble = 42.65;
+            Console.WriteLine((int)myDouble);
+
+        }
+
+
+
+
+    }
 }

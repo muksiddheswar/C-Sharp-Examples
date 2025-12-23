@@ -26,6 +26,7 @@ namespace C_Sharp_Examples
             // Data Types and Variables
             //DataTypes.DataTypes.data_type_func();
             DataTypes.DataTypes.data_type_integer();
+            DataTypes.DataTypes.data_type_typecast();
 
             //PolymorphismExample
             //PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();
