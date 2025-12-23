@@ -37,7 +37,8 @@ namespace DataTypes
         {
             // Convert myDouble to an Int and print it to the console
             double myDouble = 42.65;
-            Console.WriteLine((int)myDouble);
+			int myInt = (int)myDouble;
+            Console.WriteLine(myInt);
 
         }
 

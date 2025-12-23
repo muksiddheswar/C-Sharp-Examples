@@ -11,6 +11,7 @@ using C_Sharp_Examples.src.Keywords.Modifiers.AccessModifiers.Protected;
 using ManagedAPI.Func;
 using Keywords.Identifiers.Out;
 using C_Sharp_Examples.src.HelloWorld;
+using C_Sharp_Examples.src.UserInput;
 
 namespace C_Sharp_Examples
 {
@@ -27,6 +28,9 @@ namespace C_Sharp_Examples
             //DataTypes.DataTypes.data_type_func();
             DataTypes.DataTypes.data_type_integer();
             DataTypes.DataTypes.data_type_typecast();
+
+            // UserInput Example
+            UserInput.InputUserName();
 
             //PolymorphismExample
             //PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();
