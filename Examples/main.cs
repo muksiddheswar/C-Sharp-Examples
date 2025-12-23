@@ -12,7 +12,8 @@ using ManagedAPI.Func;
 using Keywords.Identifiers.Out;
 using C_Sharp_Examples.src.HelloWorld;
 using C_Sharp_Examples.src.UserInput;
-using C_Sharp_Examples.src.Operators;
+using C_Sharp_Examples.src.OperatorsAndExpressions;
+using C_Sharp_Examples.src.DataTypes;
 
 namespace C_Sharp_Examples
 {
@@ -27,14 +28,17 @@ namespace C_Sharp_Examples
 
             // Data Types and Variables
             //DataTypes.DataTypes.data_type_func();
-            DataTypes.DataTypes.data_type_integer();
-            DataTypes.DataTypes.data_type_typecast();
+            DataTypes.BuiltInTypes.data_type_integer();
+            DataTypes.BuiltInTypes.data_type_typecast();
 
             // UserInput Example
             //UserInput.InputUserName();
 
             // Operators Example
             Operators.additionExample();
+
+            // String Example
+            Strings.concatenateStrings();
 
             //PolymorphismExample
             //PolymorphismExample.PolymorphismExample.PolymorphismDriverFunction();

@@ -5,7 +5,7 @@ using System;
 namespace DataTypes
 
 {
-	class DataTypes
+	class BuiltInTypes
 	{
 		public static void data_type_func()
 		{
@@ -14,13 +14,13 @@ namespace DataTypes
 			float myFloatNum = 5.99F;
 			char myLetter = 'D';         // character
 			bool myBool = true;          // boolean
-			string myText = "Hello";     // string
+			//string myText = "Hello";     // string
 			Console.WriteLine(myNum);
 			Console.WriteLine(myDoubleNum);
             Console.WriteLine(myFloatNum);
             Console.WriteLine(myLetter);
 			Console.WriteLine(myBool);
-			Console.WriteLine(myText);
+			//Console.WriteLine(myText);
         }
 
 		// Declare an integer variable named 'number'
@@ -42,6 +42,8 @@ namespace DataTypes
             Console.WriteLine(Convert.ToInt32(myDouble));
 
         }
+
+		
 
 
 
