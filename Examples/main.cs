@@ -16,6 +16,9 @@ using C_Sharp_Examples.src.OperatorsAndExpressions;
 using C_Sharp_Examples.src.DataTypes;
 using C_Sharp_Examples.src.Statements;
 using C_Sharp_Examples.src.Classes.Methods;
+using C_Sharp_Examples.src.ExpressionBodiedMembers;
+//using C_Sharp_Examples.src.ExpressionBodiedMembers;
+
 
 namespace C_Sharp_Examples
 {
@@ -32,6 +35,17 @@ namespace C_Sharp_Examples
             //DataTypes.DataTypes.data_type_func();
             //BuiltInTypes.data_type_integer();
             //BuiltInTypes.data_type_typecast();
+
+            // -- Expression Bodies Members Example --
+            src.ExpressionBodiedMembers.Person p = new("Mandy", "Dejesus");
+            Console.WriteLine(p);
+            p.DisplayName();
+
+            // Examples with parameters
+            Console.WriteLine(p.GetFullName("Dr."));
+            Console.WriteLine($"Age: {p.CalculateAge(1990)}");
+            Console.WriteLine($"Is older than 25: {p.IsOlderThan(25)}");
+            Console.WriteLine(p.FormatName("Last: {last}, First: {first}"));
 
             // String Example
             //Strings.concatenateStrings();
