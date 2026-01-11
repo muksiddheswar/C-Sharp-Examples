@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 using System.Xml.Linq;
 
@@ -43,6 +44,13 @@ namespace C_Sharp_Examples.src.ExpressionBodiedMembers
         }
 
         public string Name => locationName;
+
+        //Expression body definitions to implement property get and set accessors
+        public string LName
+        {
+            get => locationName;
+            set => locationName = value;
+        }
     }
 
 
