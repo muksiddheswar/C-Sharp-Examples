@@ -45,7 +45,7 @@ namespace C_Sharp_Examples.src.ExpressionBodiedMembers
 
         public string Name => locationName;
 
-        //Expression body definitions to implement property get and set accessors
+        // Expression body definitions to implement property get and set accessors
         public string LName
         {
             get => locationName;
@@ -53,5 +53,16 @@ namespace C_Sharp_Examples.src.ExpressionBodiedMembers
         }
     }
 
+    public class Point
+    {
+        public double X { get; }
+        public double Y { get; }
+
+        // Expression body definitions to implement Constructor with multiple parameters
+        public Point(double x, double y) => (X, Y) = (x, y);
+
+        // Expression body definitions to implement  Constructor with single parameter (creates point at origin on axis)
+        public Point(double coordinate) => (X, Y) = (coordinate, 0);
+    }
 
 }
